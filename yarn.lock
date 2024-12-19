@@ -4215,6 +4215,13 @@
   resolved "https://registry.yarnpkg.com/@web3-react/types/-/types-6.0.7.tgz#34a6204224467eedc6123abaf55fbb6baeb2809f"
   integrity sha512-ofGmfDhxmNT1/P/MgVa8IKSkCStFiyvXe+U5tyZurKdrtTDFU+wJ/LxClPDtFerWpczNFPUSrKcuhfPX1sI6+A==
 
+"@web3-react/types@^8.2.3":
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/@web3-react/types/-/types-8.2.3.tgz#e2ac1eaaa7f96b518a5535fee048bf73470f5c21"
+  integrity sha512-kSG90QkN+n7IOtp10nQ44oS8J7jzfH9EmqnruwBpCGybh1FM/ohyRvUKWYZNfNE4wsjTSpKsINR0/VdDsZMHyg==
+  dependencies:
+    zustand "4.4.0"
+
 "@web3-react/walletlink-connector@^6.2.14":
   version "6.2.14"
   resolved "https://registry.yarnpkg.com/@web3-react/walletlink-connector/-/walletlink-connector-6.2.14.tgz#4adf7b94de5d7018a9fc9e3b6009e78cd33d6e15"
@@ -11932,10 +11939,10 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zustand@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.1.2.tgz#4912b24741662d8a84ed1cb52198471cb369c4b6"
-  integrity sha512-gcRaKchcxFPbImrBb/BKgujOhHhik9YhVpIeP87ETT7uokEe2Szu7KkuZ9ghjtD+/KKkcrRNktR2AiLXPIbKIQ==
+zustand@4.4.0, zustand@^4.1.2:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.4.0.tgz#13b3e8ca959dd53d536034440aec382ff91b65c3"
+  integrity sha512-2dq6wq4dSxbiPTamGar0NlIG/av0wpyWZJGeQYtUOLegIUvhM2Bf86ekPlmgpUtS5uR7HyetSiktYrGsdsyZgQ==
   dependencies:
     use-sync-external-store "1.2.0"
 
